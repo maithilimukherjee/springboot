@@ -9,5 +9,7 @@ class Status{
 
         Stat s = Stat.Online;
         System.out.println(s);
+        System.out.println(s.ordinal());
+        System.out.println(Stat.values());
     }
 }
